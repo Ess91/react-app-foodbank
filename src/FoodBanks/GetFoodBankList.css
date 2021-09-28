@@ -1,0 +1,30 @@
+.foodBankCard {
+    padding: 0 20px 20px 20px;
+    margin: 20px;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+}
+
+.foodbankName a {
+    font-family: "Monserrat", sans-serif;
+    color: #000;
+}
+
+.foodbankAddress {
+    width: 15em;
+}
+
+@media screen and (max-width: 350px) {
+    .GetList {
+        display: block;
+        margin: 0 auto;
+    }
+    .foodBankCard {
+float: left;
+
+    }
+.foodBankCard .foodbankEmail a {
+    width: 5rem;
+}
+
+  }

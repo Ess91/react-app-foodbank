@@ -1,0 +1,23 @@
+.foodBankCard {
+    padding: 0 20px 5px 20px;
+    margin: 20px;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+}
+
+.foodbankName a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Monserrat", sans-serif;
+    font-size: 16px;
+}
+
+h3 a:hover {
+    color: limegreen;
+}
+
+.foodbankNeeds li {
+    list-style-type: none;
+    width: 25em;
+    font-size: 10.5px;
+}

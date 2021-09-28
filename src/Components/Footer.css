@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #111;
+ 
+}
+
+.footer a {
+    color: #d9d9d9;
+    justify-content: flex-start;
+    transition: all 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer .bottom {
+    width: 100%;
+    text-align: center;
+    color: #d9d9d9;
+    padding: 0px 40px 5px 0px;
+    font-size: 12px;
+}
+
+.footer .bottom a {
+    color: limegreen;
+}

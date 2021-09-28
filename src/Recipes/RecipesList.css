@@ -1,0 +1,52 @@
+.recipeCard {
+    padding: 20px 20px 30px 20px;
+    margin: 20px;
+    border: 1px solid limegreen;
+    border-radius: 5px;
+  }
+  
+  .recipeCard img {
+    width: 200px;
+  }
+  
+  h5 a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Monserrat", sans-serif;
+    font-size: 16px;
+  }
+  
+  h5 a:hover {
+    color: limegreen;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  .IngredientsButton {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .ingredientText {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  @media screen and (max-width: 350px) {
+    .recipes {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 264px) {
+    .recipeCard img,
+    .IngredientsButton {
+      max-width: 100%;
+      font-size: 1rem;
+    }
+  }
+  
+  

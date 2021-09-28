@@ -1,0 +1,7 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+    margin-left: 80px;
+  }

@@ -1,0 +1,60 @@
+.mainSection {
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.form-group select {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.images {
+    width: 55%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.how-it-works {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.how-it-works li {
+    list-style-type: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 28px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: limegreen;
+    border: none;
+}
+
+button a {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 1px solid limegreen;
+}
