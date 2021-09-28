@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Home";
@@ -16,7 +16,8 @@ class App extends Component {
   render() {
     return (
      <div className="App">
-      <BrowserRouter>
+ <Router>
+      <Switch>
         <Route path="/home">
           <Navbar />
           <Home />
@@ -53,7 +54,8 @@ class App extends Component {
           <AboutUs />
           <Footer />
         </Route>
-      </BrowserRouter>
+    </Switch>
+     </Router>
      
       </div>
     );
