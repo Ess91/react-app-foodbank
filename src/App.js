@@ -54,7 +54,7 @@ class App extends Component {
           <Footer />
         </Route>
       </BrowserRouter>
-     
+     <Navbar />
       </div>
     );
   }
