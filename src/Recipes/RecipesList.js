@@ -11,7 +11,7 @@ function RecipesList({ key, name, image, website, source, ingredients }) {
  
     <div className="recipeCard">
       <p className="keyId">{key}</p>
-      <img src={image} alt="Recipe Image" />
+      <img src={image} alt="Recipe Food" />
       <h5 className="ReceipeName"><a href={website} target="_blank">{name}</a></h5>
       <h6 className="sourceInfo">Source: {source}</h6>
       <button className="IngredientsButton" onClick={() => setShow(!show)}>Ingredients</button>
