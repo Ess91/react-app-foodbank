@@ -40,7 +40,7 @@ function Recipes() {
     <div>
       <h1>Recipe Book</h1>
 
-      <img className="images" src="../recipe-book.jpg" alt="Recipe Book" />
+      <img className="images" src="../cooking-book.jpg" alt="Recipe Book" />
 
       <form onSubmit={getSearch} className="searchForm">
         <input

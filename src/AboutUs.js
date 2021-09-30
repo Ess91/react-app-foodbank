@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div>
+    <div className="paragraph">
       <h1>About Project</h1>
 
       <img className="illustration" src="./updated-colour.png" alt="Illustration"/>
