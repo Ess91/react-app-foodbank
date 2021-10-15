@@ -3,8 +3,8 @@ import RecipesList from "../Recipes/RecipesList";
 import './Recipes.css';
 
 function Recipes() {
-  const API_KEY = "1e39d67877e05f431252b2d16ae966c1";
-  const API_ID = "1158ea5c";
+  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_ID = process.env.REACT_APP_API_ID;
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("");
