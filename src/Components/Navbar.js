@@ -35,9 +35,9 @@ function Navbar() {
             <a href="/recipes">Recipe Book</a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="/aboutus">About Project</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
