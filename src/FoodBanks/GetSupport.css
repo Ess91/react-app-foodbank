@@ -1,6 +1,6 @@
-.GetList {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-    align-items: center;
+.getList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  justify-content: center;
 }

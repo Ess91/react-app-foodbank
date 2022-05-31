@@ -57,7 +57,7 @@ function GiveSupport() {
           Search
         </button>
       </form>
-      <div className="GiveList">
+      <div className="giveList">
       {foodBanks.map((foodbank) => (
         <FoodBank 
         key={foodbank.name}

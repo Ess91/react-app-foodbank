@@ -8,16 +8,25 @@
 .foodbankName a {
     text-decoration: none;
     color: #000;
-    font-family: "Monserrat", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h3 a:hover {
     color: limegreen;
 }
 
+.foodbankNeeds h5 {
+font-size: 16px;
+padding-right: 25px;
+}
+
 .foodbankNeeds li {
     list-style-type: none;
     width: 25em;
-    font-size: 10.5px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.foodBankCard h5 {
+    font-size: 16px;
 }

@@ -3,7 +3,6 @@
 }
 
 form, .getinfo {
-    font-family: "Monserrat", sans-serif;
     text-align: center;
 }
 
@@ -25,11 +24,10 @@ input.searchBar {
     border: 1px solid limegreen;
 }
 
-    .GiveList {
-        display: flex;
+    .giveList {
+         display: flex;
         flex-wrap: wrap;
-        flex: 1 1 auto;
-        align-items: center;
-        margin-left: 100px;
-        padding-bottom: 40px;
+        padding-bottom: 40px; 
+        justify-content: center;
 }
+
