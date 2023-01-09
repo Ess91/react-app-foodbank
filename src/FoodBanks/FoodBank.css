@@ -30,3 +30,8 @@ padding-right: 25px;
 .foodBankCard h5 {
     font-size: 16px;
 }
+
+.foodbankEmail {
+    text-decoration: none;
+    color: #000;
+}

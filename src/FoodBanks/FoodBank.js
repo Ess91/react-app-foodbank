@@ -10,7 +10,7 @@ function FoodBank({ name, address, phone, website, email, needs }) {
             </h3>
             <p className="foodbankAddress">{address}</p>
             <p className="foodbankPhone">{phone}</p>
-            <a href={"mailto:" + email}>{email}</a>
+            <a className="foodbankEmail" href={"mailto:" + email}>{email}</a>
             <ul className="foodbankNeeds">
               <h5>Needs</h5>
               {[needs].map((need) => (
